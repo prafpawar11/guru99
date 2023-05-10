@@ -26,6 +26,12 @@ public class RegisterPageTest extends BaseClass {
 		
 		
 		
+		
+		
+		
+		
+		
+		
 	}
 
 	@AfterTest
