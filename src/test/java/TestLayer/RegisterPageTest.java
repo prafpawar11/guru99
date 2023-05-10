@@ -23,6 +23,9 @@ public class RegisterPageTest extends BaseClass {
 		registerpage.RegisterUser(prop.getProperty("fname"), prop.getProperty("lname"), "9019923321",
 				prop.getProperty("uname"), "Pune", "Pune", "MH", "413412", "INDIA", prop.getProperty("uname"),
 				prop.getProperty("pass"), prop.getProperty("cpass"));
+		
+		
+		
 	}
 
 	@AfterTest
