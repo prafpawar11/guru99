@@ -72,7 +72,14 @@ public class RegisterSucessTest extends BaseClass {
 
 	}
 
-	
+	@Test
+	public void p2()
+	{
+		Assert.assertEquals(true, true);
+		//Hello this new Line`:
+//Hello new code
+
+	}
 	
 	
 	
