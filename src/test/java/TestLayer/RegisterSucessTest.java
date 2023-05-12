@@ -39,7 +39,11 @@ public class RegisterSucessTest extends BaseClass {
 		Assert.assertEquals(true, true);
 	}
 	
-	
+	@Test
+	public void abc10000()
+	{
+		Assert.assertEquals(true, true);
+	}
 
 	@Test
 	public void xyz()
