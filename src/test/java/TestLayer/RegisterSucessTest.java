@@ -68,8 +68,10 @@ public class RegisterSucessTest extends BaseClass {
 	{
 		Assert.assertEquals(true, true);
 		//Hello this new Line`:
+//Hello new code
 
 	}
+
 	
 	
 	
