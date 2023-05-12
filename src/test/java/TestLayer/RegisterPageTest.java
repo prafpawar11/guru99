@@ -43,6 +43,10 @@ public class RegisterPageTest extends BaseClass {
 	public void tearDown2() {
 		//driver.close();
 	}
+	@Test
+	public void tearDown3() {
+		//driver.close();
+	}
 
 
 	@AfterTest
