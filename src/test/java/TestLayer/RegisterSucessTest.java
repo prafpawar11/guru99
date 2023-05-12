@@ -94,6 +94,16 @@ public class RegisterSucessTest extends BaseClass {
 	}
 	
 	
+	@Test
+	public void p2900()
+	{
+		Assert.assertEquals(true, true);
+		//Hello this new Line`:
+//Hello new code
+
+	}
+	
+	
 	
 	
 
