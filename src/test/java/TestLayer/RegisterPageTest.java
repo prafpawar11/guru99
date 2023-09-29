@@ -40,6 +40,12 @@ public class RegisterPageTest extends BaseClass {
 	}
 	
 	@Test
+	public void p2()
+	{
+		Assert.assertEquals(12, 12);
+	}
+	
+	@Test
 	public void ab1()
 	{
 		Assert.assertEquals(12, 12);
