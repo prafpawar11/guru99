@@ -32,6 +32,13 @@ public class RegisterPageTest extends BaseClass {
 	{
 		Assert.assertEquals(12, 12);
 	}
+	
+	@Test
+	public void p()
+	{
+		Assert.assertEquals(12, 12);
+	}
+
 
 	@Test
 	public void tearDown1() {
