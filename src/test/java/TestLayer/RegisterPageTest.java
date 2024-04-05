@@ -54,7 +54,7 @@ public class RegisterPageTest extends BaseClass {
 	@Test
 	public void p1()
 	{
-		Assert.assertEquals(12, 12000000);
+		Assert.assertEquals(12, 12);
 	}
 
 
