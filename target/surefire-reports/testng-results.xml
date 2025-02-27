@@ -1,75 +1,140 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+<testng-results ignored="0" total="22" passed="22" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-05-11T19:53:24 IST" name="Guru 99 Application" finished-at="2023-05-11T19:53:43 IST" duration-ms="19000">
+  <suite started-at="2025-02-27T19:54:48 IST" name="Guru 99 Application" finished-at="2025-02-27T19:55:00 IST" duration-ms="12255">
     <groups>
       <group name="RegisterSucess">
-        <method signature="RegisterSucessTest.abc()[pri:0, instance:TestLayer.RegisterSucessTest@61386958]" name="abc" class="TestLayer.RegisterSucessTest"/>
-        <method signature="RegisterSucessTest.pqr()[pri:0, instance:TestLayer.RegisterSucessTest@61386958]" name="pqr" class="TestLayer.RegisterSucessTest"/>
-        <method signature="RegisterSucessTest.pqr1()[pri:0, instance:TestLayer.RegisterSucessTest@61386958]" name="pqr1" class="TestLayer.RegisterSucessTest"/>
-        <method signature="RegisterSucessTest.validateEmailId()[pri:4, instance:TestLayer.RegisterSucessTest@61386958]" name="validateEmailId" class="TestLayer.RegisterSucessTest"/>
-        <method signature="RegisterSucessTest.validateFirstName()[pri:2, instance:TestLayer.RegisterSucessTest@61386958]" name="validateFirstName" class="TestLayer.RegisterSucessTest"/>
-        <method signature="RegisterSucessTest.validateLastName()[pri:3, instance:TestLayer.RegisterSucessTest@61386958]" name="validateLastName" class="TestLayer.RegisterSucessTest"/>
-        <method signature="RegisterSucessTest.validateSucessPageUrl()[pri:1, instance:TestLayer.RegisterSucessTest@61386958]" name="validateSucessPageUrl" class="TestLayer.RegisterSucessTest"/>
-        <method signature="RegisterSucessTest.xyz()[pri:0, instance:TestLayer.RegisterSucessTest@61386958]" name="xyz" class="TestLayer.RegisterSucessTest"/>
+        <method signature="RegisterSucessTest.abc()[pri:0, instance:TestLayer.RegisterSucessTest@18ce0030]" name="abc" class="TestLayer.RegisterSucessTest"/>
+        <method signature="RegisterSucessTest.abc10000()[pri:0, instance:TestLayer.RegisterSucessTest@18ce0030]" name="abc10000" class="TestLayer.RegisterSucessTest"/>
+        <method signature="RegisterSucessTest.p1()[pri:0, instance:TestLayer.RegisterSucessTest@18ce0030]" name="p1" class="TestLayer.RegisterSucessTest"/>
+        <method signature="RegisterSucessTest.p2()[pri:0, instance:TestLayer.RegisterSucessTest@18ce0030]" name="p2" class="TestLayer.RegisterSucessTest"/>
+        <method signature="RegisterSucessTest.p2900()[pri:0, instance:TestLayer.RegisterSucessTest@18ce0030]" name="p2900" class="TestLayer.RegisterSucessTest"/>
+        <method signature="RegisterSucessTest.pqr()[pri:0, instance:TestLayer.RegisterSucessTest@18ce0030]" name="pqr" class="TestLayer.RegisterSucessTest"/>
+        <method signature="RegisterSucessTest.pqr1()[pri:0, instance:TestLayer.RegisterSucessTest@18ce0030]" name="pqr1" class="TestLayer.RegisterSucessTest"/>
+        <method signature="RegisterSucessTest.pqr200()[pri:0, instance:TestLayer.RegisterSucessTest@18ce0030]" name="pqr200" class="TestLayer.RegisterSucessTest"/>
+        <method signature="RegisterSucessTest.validateEmailId()[pri:4, instance:TestLayer.RegisterSucessTest@18ce0030]" name="validateEmailId" class="TestLayer.RegisterSucessTest"/>
+        <method signature="RegisterSucessTest.validateFirstName()[pri:2, instance:TestLayer.RegisterSucessTest@18ce0030]" name="validateFirstName" class="TestLayer.RegisterSucessTest"/>
+        <method signature="RegisterSucessTest.validateLastName()[pri:3, instance:TestLayer.RegisterSucessTest@18ce0030]" name="validateLastName" class="TestLayer.RegisterSucessTest"/>
+        <method signature="RegisterSucessTest.validateSucessPageUrl()[pri:1, instance:TestLayer.RegisterSucessTest@18ce0030]" name="validateSucessPageUrl" class="TestLayer.RegisterSucessTest"/>
+        <method signature="RegisterSucessTest.xyz()[pri:0, instance:TestLayer.RegisterSucessTest@18ce0030]" name="xyz" class="TestLayer.RegisterSucessTest"/>
       </group> <!-- RegisterSucess -->
       <group name="RegisterPage">
-        <method signature="RegisterPageTest.validateRegisterFunctionality()[pri:0, instance:TestLayer.RegisterPageTest@3972a855]" name="validateRegisterFunctionality" class="TestLayer.RegisterPageTest"/>
+        <method signature="RegisterPageTest.ab()[pri:0, instance:TestLayer.RegisterPageTest@4278a03f]" name="ab" class="TestLayer.RegisterPageTest"/>
+        <method signature="RegisterPageTest.ab1()[pri:0, instance:TestLayer.RegisterPageTest@4278a03f]" name="ab1" class="TestLayer.RegisterPageTest"/>
+        <method signature="RegisterPageTest.p()[pri:0, instance:TestLayer.RegisterPageTest@4278a03f]" name="p" class="TestLayer.RegisterPageTest"/>
+        <method signature="RegisterPageTest.p1()[pri:0, instance:TestLayer.RegisterPageTest@4278a03f]" name="p1" class="TestLayer.RegisterPageTest"/>
+        <method signature="RegisterPageTest.p2()[pri:0, instance:TestLayer.RegisterPageTest@4278a03f]" name="p2" class="TestLayer.RegisterPageTest"/>
+        <method signature="RegisterPageTest.tearDown1()[pri:0, instance:TestLayer.RegisterPageTest@4278a03f]" name="tearDown1" class="TestLayer.RegisterPageTest"/>
+        <method signature="RegisterPageTest.tearDown2()[pri:0, instance:TestLayer.RegisterPageTest@4278a03f]" name="tearDown2" class="TestLayer.RegisterPageTest"/>
+        <method signature="RegisterPageTest.tearDown3()[pri:0, instance:TestLayer.RegisterPageTest@4278a03f]" name="tearDown3" class="TestLayer.RegisterPageTest"/>
+        <method signature="RegisterPageTest.validateRegisterFunctionality()[pri:0, instance:TestLayer.RegisterPageTest@4278a03f]" name="validateRegisterFunctionality" class="TestLayer.RegisterPageTest"/>
       </group> <!-- RegisterPage -->
     </groups>
-    <test started-at="2023-05-11T19:53:24 IST" name="Register Page Sucess Test Cases" finished-at="2023-05-11T19:53:43 IST" duration-ms="19000">
+    <test started-at="2025-02-27T19:54:48 IST" name="Register Page Sucess Test Cases" finished-at="2025-02-27T19:55:00 IST" duration-ms="12255">
       <class name="TestLayer.RegisterSucessTest">
-        <test-method signature="abc()[pri:0, instance:TestLayer.RegisterSucessTest@61386958]" started-at="2023-05-11T19:53:40 IST" name="abc" depends-on-groups="RegisterPage" finished-at="2023-05-11T19:53:40 IST" duration-ms="5" status="PASS">
+        <test-method signature="abc()[pri:0, instance:TestLayer.RegisterSucessTest@18ce0030]" started-at="2025-02-27T19:54:58 IST" name="abc" depends-on-groups="RegisterPage" finished-at="2025-02-27T19:54:58 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- abc -->
-        <test-method signature="pqr()[pri:0, instance:TestLayer.RegisterSucessTest@61386958]" started-at="2023-05-11T19:53:40 IST" name="pqr" depends-on-groups="RegisterPage" finished-at="2023-05-11T19:53:40 IST" duration-ms="0" status="PASS">
+        <test-method signature="abc10000()[pri:0, instance:TestLayer.RegisterSucessTest@18ce0030]" started-at="2025-02-27T19:54:58 IST" name="abc10000" depends-on-groups="RegisterPage" finished-at="2025-02-27T19:54:58 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- abc10000 -->
+        <test-method signature="p1()[pri:0, instance:TestLayer.RegisterSucessTest@18ce0030]" started-at="2025-02-27T19:54:58 IST" name="p1" depends-on-groups="RegisterPage" finished-at="2025-02-27T19:54:58 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- p1 -->
+        <test-method signature="p2()[pri:0, instance:TestLayer.RegisterSucessTest@18ce0030]" started-at="2025-02-27T19:54:59 IST" name="p2" depends-on-groups="RegisterPage" finished-at="2025-02-27T19:54:59 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- p2 -->
+        <test-method signature="p2900()[pri:0, instance:TestLayer.RegisterSucessTest@18ce0030]" started-at="2025-02-27T19:54:59 IST" name="p2900" depends-on-groups="RegisterPage" finished-at="2025-02-27T19:54:59 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- p2900 -->
+        <test-method signature="pqr()[pri:0, instance:TestLayer.RegisterSucessTest@18ce0030]" started-at="2025-02-27T19:54:59 IST" name="pqr" depends-on-groups="RegisterPage" finished-at="2025-02-27T19:54:59 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pqr -->
-        <test-method signature="pqr1()[pri:0, instance:TestLayer.RegisterSucessTest@61386958]" started-at="2023-05-11T19:53:41 IST" name="pqr1" depends-on-groups="RegisterPage" finished-at="2023-05-11T19:53:41 IST" duration-ms="0" status="PASS">
+        <test-method signature="pqr1()[pri:0, instance:TestLayer.RegisterSucessTest@18ce0030]" started-at="2025-02-27T19:54:59 IST" name="pqr1" depends-on-groups="RegisterPage" finished-at="2025-02-27T19:54:59 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pqr1 -->
-        <test-method signature="xyz()[pri:0, instance:TestLayer.RegisterSucessTest@61386958]" started-at="2023-05-11T19:53:41 IST" name="xyz" depends-on-groups="RegisterPage" finished-at="2023-05-11T19:53:41 IST" duration-ms="1" status="PASS">
+        <test-method signature="pqr200()[pri:0, instance:TestLayer.RegisterSucessTest@18ce0030]" started-at="2025-02-27T19:54:59 IST" name="pqr200" depends-on-groups="RegisterPage" finished-at="2025-02-27T19:54:59 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pqr200 -->
+        <test-method signature="xyz()[pri:0, instance:TestLayer.RegisterSucessTest@18ce0030]" started-at="2025-02-27T19:54:59 IST" name="xyz" depends-on-groups="RegisterPage" finished-at="2025-02-27T19:54:59 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- xyz -->
-        <test-method signature="validateSucessPageUrl()[pri:1, instance:TestLayer.RegisterSucessTest@61386958]" started-at="2023-05-11T19:53:41 IST" name="validateSucessPageUrl" depends-on-groups="RegisterPage" finished-at="2023-05-11T19:53:41 IST" duration-ms="8" status="PASS">
+        <test-method signature="validateSucessPageUrl()[pri:1, instance:TestLayer.RegisterSucessTest@18ce0030]" started-at="2025-02-27T19:55:00 IST" name="validateSucessPageUrl" depends-on-groups="RegisterPage" finished-at="2025-02-27T19:55:00 IST" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateSucessPageUrl -->
-        <test-method signature="validateFirstName()[pri:2, instance:TestLayer.RegisterSucessTest@61386958]" started-at="2023-05-11T19:53:42 IST" name="validateFirstName" depends-on-groups="RegisterPage" finished-at="2023-05-11T19:53:42 IST" duration-ms="20" status="PASS">
+        <test-method signature="validateFirstName()[pri:2, instance:TestLayer.RegisterSucessTest@18ce0030]" started-at="2025-02-27T19:55:00 IST" name="validateFirstName" depends-on-groups="RegisterPage" finished-at="2025-02-27T19:55:00 IST" duration-ms="23" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateFirstName -->
-        <test-method signature="validateLastName()[pri:3, instance:TestLayer.RegisterSucessTest@61386958]" started-at="2023-05-11T19:53:42 IST" name="validateLastName" depends-on-groups="RegisterPage" finished-at="2023-05-11T19:53:42 IST" duration-ms="49" status="PASS">
+        <test-method signature="validateLastName()[pri:3, instance:TestLayer.RegisterSucessTest@18ce0030]" started-at="2025-02-27T19:55:00 IST" name="validateLastName" depends-on-groups="RegisterPage" finished-at="2025-02-27T19:55:00 IST" duration-ms="27" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateLastName -->
-        <test-method signature="validateEmailId()[pri:4, instance:TestLayer.RegisterSucessTest@61386958]" started-at="2023-05-11T19:53:42 IST" name="validateEmailId" depends-on-groups="RegisterPage" finished-at="2023-05-11T19:53:42 IST" duration-ms="17" status="PASS">
+        <test-method signature="validateEmailId()[pri:4, instance:TestLayer.RegisterSucessTest@18ce0030]" started-at="2025-02-27T19:55:00 IST" name="validateEmailId" depends-on-groups="RegisterPage" finished-at="2025-02-27T19:55:00 IST" duration-ms="18" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateEmailId -->
       </class> <!-- TestLayer.RegisterSucessTest -->
       <class name="TestLayer.RegisterPageTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:TestLayer.RegisterPageTest@3972a855]" started-at="2023-05-11T19:53:24 IST" name="setUp" finished-at="2023-05-11T19:53:36 IST" duration-ms="11951" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:TestLayer.RegisterPageTest@4278a03f]" started-at="2025-02-27T19:54:48 IST" name="setUp" finished-at="2025-02-27T19:54:54 IST" duration-ms="5560" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="validateRegisterFunctionality()[pri:0, instance:TestLayer.RegisterPageTest@3972a855]" started-at="2023-05-11T19:53:36 IST" name="validateRegisterFunctionality" finished-at="2023-05-11T19:53:39 IST" duration-ms="3555" status="PASS">
+        <test-method signature="ab()[pri:0, instance:TestLayer.RegisterPageTest@4278a03f]" started-at="2025-02-27T19:54:54 IST" name="ab" finished-at="2025-02-27T19:54:54 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ab -->
+        <test-method signature="ab1()[pri:0, instance:TestLayer.RegisterPageTest@4278a03f]" started-at="2025-02-27T19:54:54 IST" name="ab1" finished-at="2025-02-27T19:54:54 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ab1 -->
+        <test-method signature="p()[pri:0, instance:TestLayer.RegisterPageTest@4278a03f]" started-at="2025-02-27T19:54:54 IST" name="p" finished-at="2025-02-27T19:54:54 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- p -->
+        <test-method signature="p1()[pri:0, instance:TestLayer.RegisterPageTest@4278a03f]" started-at="2025-02-27T19:54:55 IST" name="p1" finished-at="2025-02-27T19:54:55 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- p1 -->
+        <test-method signature="p2()[pri:0, instance:TestLayer.RegisterPageTest@4278a03f]" started-at="2025-02-27T19:54:55 IST" name="p2" finished-at="2025-02-27T19:54:55 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- p2 -->
+        <test-method signature="tearDown1()[pri:0, instance:TestLayer.RegisterPageTest@4278a03f]" started-at="2025-02-27T19:54:55 IST" name="tearDown1" finished-at="2025-02-27T19:54:55 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown1 -->
+        <test-method signature="tearDown2()[pri:0, instance:TestLayer.RegisterPageTest@4278a03f]" started-at="2025-02-27T19:54:55 IST" name="tearDown2" finished-at="2025-02-27T19:54:55 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown2 -->
+        <test-method signature="tearDown3()[pri:0, instance:TestLayer.RegisterPageTest@4278a03f]" started-at="2025-02-27T19:54:55 IST" name="tearDown3" finished-at="2025-02-27T19:54:55 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown3 -->
+        <test-method signature="validateRegisterFunctionality()[pri:0, instance:TestLayer.RegisterPageTest@4278a03f]" started-at="2025-02-27T19:54:55 IST" name="validateRegisterFunctionality" finished-at="2025-02-27T19:54:58 IST" duration-ms="2430" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateRegisterFunctionality -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestLayer.RegisterPageTest@3972a855]" started-at="2023-05-11T19:53:43 IST" name="tearDown" finished-at="2023-05-11T19:53:43 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestLayer.RegisterPageTest@4278a03f]" started-at="2025-02-27T19:55:00 IST" name="tearDown" finished-at="2025-02-27T19:55:00 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

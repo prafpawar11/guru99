@@ -1,7 +1,7 @@
 package TestLayer;
 
 import org.testng.Assert;
-import org.testng.annotations.AfterTest;
+import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
@@ -26,37 +26,31 @@ public class RegisterPageTest extends BaseClass {
 				prop.getProperty("pass"), prop.getProperty("cpass"));
 
 	}
-	
+
 	@Test
-	public void ab()
-	{
-		Assert.assertEquals(12, 12);
-	}
-	
-	@Test
-	public void p()
-	{
-		Assert.assertEquals(12, 12);
-	}
-	
-	@Test
-	public void p2()
-	{
-		Assert.assertEquals(12, 12);
-	}
-	
-	@Test
-	public void ab1()
-	{
-		Assert.assertEquals(12, 12);
-	}
-	
-	@Test
-	public void p1()
-	{
+	public void ab() {
 		Assert.assertEquals(12, 12);
 	}
 
+	@Test
+	public void p() {
+		Assert.assertEquals(12, 12);
+	}
+
+	@Test
+	public void p2() {
+		Assert.assertEquals(12, 12);
+	}
+
+	@Test
+	public void ab1() {
+		Assert.assertEquals(12, 12);
+	}
+
+	@Test
+	public void p1() {
+		Assert.assertEquals(12, 12);
+	}
 
 	@Test
 	public void tearDown1() {
@@ -73,9 +67,9 @@ public class RegisterPageTest extends BaseClass {
 		// driver.close();
 	}
 
-	@AfterTest
+	@AfterSuite
 	public void tearDown() {
-		// driver.close();
+		driver.quit();
 	}
 
 }
