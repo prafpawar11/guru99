@@ -5,24 +5,32 @@
     <listener class-name="UtilsLayer.ListenerClass"/>
   </listeners>
   <test thread-count="5" parallel="tests" name="Register Page Sucess Test Cases(failed)">
-    <parameter name="browsers" value="firefox"/>
+    <parameter name="browsers" value="chrome"/>
     <groups>
       <run>
         <include name="RegisterPage"/>
         <include name="RegisterSucess"/>
+        <include name="LoginPage"/>
       </run>
     </groups>
     <classes>
       <class name="TestLayer.RegisterPageTest">
         <methods>
+          <include name="tearDown1"/>
+          <include name="tearDown2"/>
           <include name="tearDown"/>
+          <include name="tearDown3"/>
           <include name="setUp"/>
           <include name="validateRegisterFunctionality"/>
+          <include name="ab1"/>
+          <include name="p"/>
+          <include name="ab"/>
+          <include name="p1"/>
+          <include name="p2"/>
         </methods>
       </class> <!-- TestLayer.RegisterPageTest -->
       <class name="TestLayer.RegisterSucessTest">
         <methods>
-          <include name="validateSucessPageUrl"/>
           <include name="validateEmailId"/>
           <include name="validateFirstName"/>
           <include name="validateLastName"/>
@@ -30,30 +38,4 @@
       </class> <!-- TestLayer.RegisterSucessTest -->
     </classes>
   </test> <!-- Register Page Sucess Test Cases(failed) -->
-  <test thread-count="5" parallel="tests" name="Register Page Sucess Test Cases chrome(failed)">
-    <parameter name="browsers" value="opera"/>
-    <groups>
-      <run>
-        <include name="RegisterPage"/>
-        <include name="RegisterSucess"/>
-      </run>
-    </groups>
-    <classes>
-      <class name="TestLayer.RegisterPageTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="validateRegisterFunctionality"/>
-        </methods>
-      </class> <!-- TestLayer.RegisterPageTest -->
-      <class name="TestLayer.RegisterSucessTest">
-        <methods>
-          <include name="validateSucessPageUrl"/>
-          <include name="validateEmailId"/>
-          <include name="validateFirstName"/>
-          <include name="validateLastName"/>
-        </methods>
-      </class> <!-- TestLayer.RegisterSucessTest -->
-    </classes>
-  </test> <!-- Register Page Sucess Test Cases chrome(failed) -->
 </suite> <!-- Failed suite [Guru 99 Application] -->

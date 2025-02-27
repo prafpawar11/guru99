@@ -11,13 +11,18 @@
 			<run>
 				<include name="RegisterPage"></include>
 				<include name="RegisterSucess"></include>
+				<include name="LoginPage"></include>
 			</run>
 		</groups>
 		<classes>
 			<class name="TestLayer.RegisterPageTest" />
 			<class name="TestLayer.RegisterSucessTest" />
+			<class name="TestLayer.LoginPageTest" />
+
 		</classes>
-	</test> <!-- Test -->
+	</test> <!--
+	Test -->
 
 
-</suite> <!-- Suite -->
+</suite> <!--
+Suite -->
