@@ -66,7 +66,15 @@ public class RegisterPageTest extends BaseClass {
 	public void tearDown3() {
 		// driver.close();
 	}
-
+	
+	@Test
+	public void testcases111()
+	{
+		System.out.println("New TC Written By Rohit");
+	}
+	
+	
+	
 	@AfterSuite
 	public void tearDown() {
 		driver.quit();
