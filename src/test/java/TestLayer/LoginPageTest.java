@@ -24,5 +24,11 @@ public class LoginPageTest extends BaseClass {
 
 		Assert.assertEquals(loginPage.getMassage(), "Login Successfully");
 	}
+	
+	@Test
+	public void abc()
+	{
+		System.out.println("Login New TC");
+	}
 
 }
