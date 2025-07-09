@@ -122,7 +122,7 @@ public class RegisterPage extends BaseClass {
 		enterUsername(uname);
 		enterPassword(pass);
 		enterConfirmPassword(cpass);
-		clickonSubmit();
+		((JavascriptExecutor)driver).executeScript("arguments[0].click;", submit);
 
 	}
 
